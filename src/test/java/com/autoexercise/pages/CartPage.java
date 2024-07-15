@@ -40,8 +40,4 @@ public class CartPage extends BasePage{
     @FindBy(xpath = "//a[text()='Blue Top']")
     public WebElement blueTopDescription_WE;
 
-
-
-
-
 }
