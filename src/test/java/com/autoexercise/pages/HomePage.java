@@ -39,6 +39,12 @@ public class HomePage extends BasePage {
     public WebElement recommendedItemsHeader_WE;
     @FindBy(xpath = "(//a[text()='Add to cart'])[69]")
     public WebElement firstRecommendedItemAddToCart_WE;
+    @FindBy(xpath = "//i[@class='fa fa-angle-up']")
+    public WebElement moveUpwardArrow_WE;
+    @FindBy(xpath = "//h2[text()='Full-Fledged practice website for Automation Engineers']")
+    public WebElement fullFledgedHeader_WE;
+    @FindBy(xpath = "//div[@class='logo pull-left']")
+    public WebElement automationExerciseHeader_WE;
 
 
 
